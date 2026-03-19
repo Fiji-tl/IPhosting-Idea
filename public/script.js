@@ -1,10 +1,3 @@
-fetch('/api/ip')
-.then(res=>res.json())
-.then(data=>{
-    document.getElementById("text").innerText = "It's yours ip?" + data.ip;
-});
-
-
 const text = document.getElementById("text");
 const image = document.getElementById("image");
 
