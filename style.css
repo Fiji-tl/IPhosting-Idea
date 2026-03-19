@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#image {
+  position: absolute;
+  width: 80%;
+  display: none;
+}
+#text {
+  font-size: 30px;
+  text-align: center;
+}
